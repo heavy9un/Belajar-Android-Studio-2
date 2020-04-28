@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/belajarandroid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="@string/belajar"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/data2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/belajarandroid"
+            android:layout_centerHorizontal="true"
+            android:text="@string/data2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/tombol"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/data2"
+            android:text="@string/tombol"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/gintama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tombol"
+            android:contentDescription="@string/gintama"
+            app:srcCompat="@drawable/gintama" />
+
+        <Button
+            android:id="@+id/tombolketiga"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/gintama"
+            android:text="@string/tombolketiga" />
+    </RelativeLayout>
+</ScrollView>

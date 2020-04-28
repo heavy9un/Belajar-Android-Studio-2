@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Belajar Android Studio</string>
+    <string name="belajar">Belajar Android</string>
+    <string name="tombol">Tombol</string>
+    <string name="gintama">gintama</string>
+    <string name="tulisankedua">Tulisan Kedua</string>
+    <string name="tombolkedua">Tombol Kedua</string>
+    <string name="tombolketiga">Kirim Data</string>
+    <string name="data2">Data 2</string>
+</resources>

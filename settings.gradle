@@ -1,0 +1,2 @@
+rootProject.name='Belajar Android Studio'
+include ':app'
